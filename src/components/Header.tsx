@@ -20,6 +20,10 @@ const Header = () => {
         return document
           .querySelector("#project")
           ?.scrollIntoView({ behavior: "smooth" });
+      case "archiving-btn":
+        return document
+          .querySelector("#archiving")
+          ?.scrollIntoView({ behavior: "smooth" });
       default:
         return window.scrollTo({ top: 0, behavior: "smooth" });
     }
@@ -36,9 +40,17 @@ const Header = () => {
           <div onClick={scrollValue} id="about-btn" className="menu">
             About
           </div>
+          <hr />
           <div onClick={scrollValue} id="skill-btn" className="menu">
             Skill
           </div>
+          <hr />
+
+          <div onClick={scrollValue} id="archiving-btn" className="menu">
+            Archiving
+          </div>
+          <hr />
+
           <div onClick={scrollValue} id="project-btn" className="menu">
             Project
           </div>
