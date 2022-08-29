@@ -1,19 +1,23 @@
+// Component
+import Intro from "../components/page/Intro";
+import About from "../components/page/About";
+import Skill from "../components/page/Skill";
+import Archiving from "../components/page/Archiving";
+import Project from "../components/page/Project";
+
 const MainPage = () => {
   return (
-    <div className="App">
-      <div style={{ height: "100vh" }}>1ojprjgpqg</div>
-      <div id="about" style={{ height: "100vh" }}>
-        111
-      </div>
+    <>
+      <Intro />
 
-      <div id="skill" style={{ height: "100vh" }}>
-        스킬
-      </div>
+      <About />
 
-      <div id="project" style={{ height: "100vh" }}>
-        124124124
-      </div>
-    </div>
+      <Skill />
+
+      <Archiving />
+
+      <Project />
+    </>
   );
 };
 
