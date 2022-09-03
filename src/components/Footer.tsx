@@ -1,5 +1,5 @@
 import React from "react";
-import github from "../image/github.png";
+import github2 from "../image/github2.png";
 import { FooterStyle } from "../style/FooterStyle";
 
 const Footer = () => {
@@ -7,7 +7,7 @@ const Footer = () => {
     <FooterStyle>
       <div className="footer">
         <a href="https://github.com/BobbyKJH" target="_blank">
-          <img src={github} alt="github" />
+          <img src={github2} alt="github" />
         </a>
         <span>Thank You For Visiting</span>
       </div>
